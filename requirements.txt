@@ -1,0 +1,6 @@
+syft==0.2.5
+pytest
+wget
+pandas
+pyyaml
+matplotlib
