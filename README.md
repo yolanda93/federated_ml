@@ -12,10 +12,10 @@ The description of the tests are in the following doc:
 * [Reference examples](#)
 * [Implementation draft figures](#)
 
-# Deployment steps
+### Deployment steps
+Substitute with the 'poc_name' with the folder to be launched. e.g. 1b_show_tensor
 
-
-'''
+```console
 cd deploy
-./launch.sh 1b_show_tensor #substitute with the poc to be launched
-'''
+./launch.sh poc_name 
+```
