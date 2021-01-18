@@ -7,7 +7,7 @@ import argparse
 import logging
 
 path, filename = os.path.split(os.getcwd())
-log_file = os.path.join(path, 'log_files', '{}.log'.format(filename))
+log_file = os.path.join('.', 'log_files', '{}.log'.format(filename))
 logging.basicConfig(filename=log_file,  format="%(asctime)s: %(message)s", datefmt='%Y-%m-%d %H:%M:%S', level=logging.INFO)
 
 local_execution = True
@@ -59,6 +59,6 @@ if __name__ == '__main__':
     logging.info("SERVER - Started in host:{}, port:{}".format(kwargs['host'], kwargs['port']))
     server = start_proc(WebsocketServerWorker, kwargs)
     #TODO: receive signal to kill this process
-    #server.terminate()
-    #logging.info("SERVER: Finished")
+    server.terminate()
+    logging.info("SERVER: Finished")
 
