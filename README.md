@@ -2,6 +2,8 @@
 
 STATUS: Working in PySyft v0.2.5
 
+### Implemented PoCs
+
 * 1_test_connection: OK
 * 2_show_tensor: --
 * 3_tensor_sum: OK
