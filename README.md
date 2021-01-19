@@ -33,4 +33,4 @@ pytest tests/test_websocket_api.py.py
 
 ### Presentations
 
-* [Development iterations - executive ppt][https://docs.google.com/presentation/d/1rH7EoaJ9kmRnzF2COQPv8SG91NhGAS_sxIwiicxAoVU/edit#slide=id.gaf99398980_1_129]
+* [Development iterations - executive ppt](https://docs.google.com/presentation/d/1rH7EoaJ9kmRnzF2COQPv8SG91NhGAS_sxIwiicxAoVU/edit#slide=id.gaf99398980_1_129)
