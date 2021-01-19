@@ -4,7 +4,7 @@ import time
 
 python = "python" + sys.version[0:3]
 
-call_server = [python, "start_bob_node.py", "--host", "localhost", "--port", "8768", "--id", "fed", "-v"]
+call_server = [python, "server_worker.py", "--host", "localhost", "--port", "8768", "--id", "fed", "-v"]
 call_client = [python, "client_worker.py", "--host", "localhost", "--port", "8768", "--id", "fed", "-v"]
 
 print("Starting worker for Server")
