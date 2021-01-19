@@ -1,0 +1,7 @@
+2021-01-19 20:35:30: SERVER - Running...
+2021-01-19 20:35:41: CLIENT - Started in host:0.0.0.0, port:8769
+2021-01-19 20:35:41: CLIENT - Connected
+2021-01-19 20:35:41: CLIENT - Get the result to local, removing from remote
+2021-01-19 20:35:41: CLIENT - Final result: [(Wrapper)>[PointerTensor | me:13705752079 -> fed:99221481672]
+	Tags: x 
+	Shape: torch.Size([2])]
