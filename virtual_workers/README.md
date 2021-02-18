@@ -1,6 +1,6 @@
 ### Installation instructions
 
-#### Helper script
+#### Option 1: Using the Helper script
 
 If you want to build an experiment run the following:
 ```console
@@ -15,7 +15,7 @@ cd deploy
 ```
 
 
-#### Docker instructions
+#### Option 2: Using Docker instructions
 
 Alternatively, you can create the docker image without the help of any script:
 
