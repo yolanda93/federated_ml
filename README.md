@@ -24,13 +24,13 @@ Here, each worker is represented by two parts, a local handle (websocket client 
 * DATE: 11/01/2021
 * DESCRIPTION: This notebook shows how to stablish a basic websocket connection between a client and a server. 
 * RESOURCES:
-  * [Notebook](websockets/01_test_connection/notebooks/01_test_connection.ipynb)
+  * [Notebook](websockets/01_test_connection/notebooks/)
 
 **02_remote_sum**
 * DATE: 11/01/2021
 * DESCRIPTION: This notebook shows how to implement a remote tensor sum using websockets.
 * RESOURCES:
-  * [Notebook](websockets/02_remote_sum/notebooks/02_remote_sum.ipynb)
+  * [Notebook](websockets/02_remote_sum/notebooks/)
 
 STATUS: Working in PySyft v0.2.5
 
