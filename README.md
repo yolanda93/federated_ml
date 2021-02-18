@@ -6,16 +6,16 @@
 Virtual workers are entities present on our local machine. They are used to model the behavior of actual workers.
 
 **01_tricky_operations**
-* FECHA: 11/01/2021
-* DESCRIPCIÓN: This notebook shows some tricky/advanced tensor operations with PySyft.
-* RECURSOS:
-  * [Notebook](virtual_workers/01_tricky_operations/01_tricky_operations.ipynb)
+* DATE: 11/01/2021
+* DESCRIPTION: This notebook shows some tricky/advanced tensor operations with PySyft.
+* RESOURCES:
+  * [Notebook](virtual_workers/01_tricky_operations/notebooks/01_tricky_operations.ipynb)
 
 **02_fed_nonfed_regression** 
-* FECHA: 11/01/2021
-* DESCRIPCIÓN: A comparison between PyTorch training and PySyft federated training using virtual workers and a synthetic regression dataset.
-* RECURSOS:
-  * [Notebook](virtual_workers/02_fed_nonfed_regression/fed_nonfed_simple_regression.ipynb)
+* DATE: 11/01/2021
+* DESCRIPTION: A comparison between PyTorch training and PySyft federated training using virtual workers and a synthetic regression dataset.
+* RESOURCES:
+  * [Notebook](virtual_workers/02_fed_nonfed_regression/notebooks/fed_nonfed_simple_regression.ipynb)
 
 ### [web sockets](websockets/README.md)
 
