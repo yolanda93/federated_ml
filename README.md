@@ -4,11 +4,24 @@ STATUS: Working in PySyft v0.2.5
 
 ### Implemented PoCs
 
+## [virtual workers](virtual_workers/README.md)
+
+**01-test_connection** 
+* FECHA: 11/12/2019
+* DESCRIPCIÓN: validación básica (reproducibilidad de resultados) del funcionamiento de la técnica.
+* RECURSOS:
+  * [Notebook](websockets/1_test_connection)
+
+## [web sockets](websockets/README.md)
+
 * 1_test_connection: OK
 * 2_show_tensor: --
 * 3_tensor_sum: OK
 * 4_delegated_computation: --
 * 5_fed_ml_basic: current
+
+
+## [pygrid](pygrid/README.md)
 
 ### PoC description
 
