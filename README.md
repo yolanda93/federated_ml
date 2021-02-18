@@ -1,27 +1,33 @@
 # Private AI - PySyft PoC
 
-STATUS: Working in PySyft v0.2.5
+## Implemented PoCs
 
-### Implemented PoCs
+### [virtual workers](virtual_workers/README.md)
+Virtual workers are entities present on our local machine. They are used to model the behavior of actual workers.
 
-## [virtual workers](virtual_workers/README.md)
-
-**01-test_connection** 
-* FECHA: 11/12/2019
-* DESCRIPCIÓN: validación básica (reproducibilidad de resultados) del funcionamiento de la técnica.
+**01_tricky_operations**
+* FECHA: 11/01/2021
+* DESCRIPCIÓN: This notebook shows some tricky/advanced tensor operations with PySyft.
 * RECURSOS:
-  * [Notebook](websockets/1_test_connection)
+  * [Notebook](virtual_workers/01_tricky_operations/01_tricky_operations.ipynb)
 
-## [web sockets](websockets/README.md)
+**02_fed_nonfed_regression** 
+* FECHA: 11/01/2021
+* DESCRIPCIÓN: A comparison between PyTorch training and PySyft federated training using virtual workers and a synthetic regression dataset.
+* RECURSOS:
+  * [Notebook](virtual_workers/02_fed_nonfed_regression/fed_nonfed_simple_regression.ipynb)
+
+### [web sockets](websockets/README.md)
 
 * 1_test_connection: OK
 * 2_show_tensor: --
 * 3_tensor_sum: OK
 * 4_delegated_computation: --
 * 5_fed_ml_basic: current
+* 
+STATUS: Working in PySyft v0.2.5
 
-
-## [pygrid](pygrid/README.md)
+### [pygrid](pygrid/README.md)
 
 ### PoC description
 
