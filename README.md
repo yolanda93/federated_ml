@@ -2,32 +2,53 @@
 
 ## Implemented PoCs
 
-### [virtual workers](virtual_workers/README.md)
+### [Virtual Workers](virtual_workers/README.md)
 Virtual workers are entities present on our local machine. They are used to model the behavior of actual workers.
 
 **01_tricky_operations**
-* DATE: 11/01/2021
+* DATE: 18/01/2021
 * DESCRIPTION: This notebook shows some tricky/advanced tensor operations with PySyft.
 * RESOURCES:
   * [Notebook](virtual_workers/01_tricky_operations/notebooks/01_tricky_operations.ipynb)
 
 **02_fed_nonfed_regression** 
-* DATE: 11/01/2021
+* DATE: 25/01/2021
 * DESCRIPTION: A comparison between PyTorch training and PySyft federated training using virtual workers and a synthetic regression dataset.
 * RESOURCES:
   * [Notebook](virtual_workers/02_fed_nonfed_regression/notebooks/fed_nonfed_simple_regression.ipynb)
 
-### [web sockets](websockets/README.md)
+### [Web Sockets](websockets/README.md)
+Here, each worker is represented by two parts, a local handle (websocket client worker) and the remote instance that holds the data and performs the computations. The remote part is called a websocket server worker.
 
-* 1_test_connection: OK
-* 2_show_tensor: --
-* 3_tensor_sum: OK
-* 4_delegated_computation: --
-* 5_fed_ml_basic: current
-* 
+**01_test_connection**
+* DATE: 11/01/2021
+* DESCRIPTION: This notebook shows how to stablish a basic websocket connection between a client and a server. 
+* RESOURCES:
+  * [Notebook](websockets/01_test_connection/notebooks/01_test_connection.ipynb)
+
+**02_remote_sum**
+* DATE: 11/01/2021
+* DESCRIPTION: This notebook shows how to implement a remote tensor sum using websockets.
+* RESOURCES:
+  * [Notebook](websockets/02_remote_sum/notebooks/02_remote_sum.ipynb)
+
 STATUS: Working in PySyft v0.2.5
 
-### [pygrid](pygrid/README.md)
+### [PyGrid](pygrid/README.md)
+[PyGrid](https://github.com/OpenMined/PyGrid) is a peer-to-peer network of data owners and data scientists who can collectively train AI models using PySyft. 
+
+**01_data_centric_mnist**
+* DATE: 08/02/2021
+* DESCRIPTION: This notebook shows how to implement a federated learning following a data centric approach with PyGrid.
+* RESOURCES:
+  * [Notebook](pygrid/01_data_centric_mnist/notebooks/01_data_centric_mnist.ipynb)
+
+**02_model_centric_regression**
+* DATE: 18/02/2021
+* DESCRIPTION: This notebook shows how to implement a federated learning following a model centric approach with PyGrid.
+* RESOURCES:
+  * [Notebook](pygrid/01_model_centric_regression/notebooks/02_model_centric_regression.ipynb)
+ 
 
 ### PoC description
 
