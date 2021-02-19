@@ -17,8 +17,8 @@ cd PyGrid/apps/network
 
 #### 3. Levantar nodos
 ```console
-$ cd PyGrid/apps/node
-$ ./run.sh --id bob --port 5000 --start_local_db --host 0.0.0.0 --network http://0.0.0.0:7000
+cd PyGrid/apps/node
+./run.sh --id bob --port 5000 --start_local_db --host 0.0.0.0 --network http://0.0.0.0:7000
 ```
 ---------
 
