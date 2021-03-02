@@ -2,7 +2,9 @@
 
 ## Implemented PoCs
 
-### [Virtual Workers](virtual_workers/README.md)
+### PySyft
+*[Virtual Workers](virtual_workers/README.md)*
+
 Virtual workers are entities present on our local machine. They are used to model the behavior of actual workers.
 
 **01_tricky_operations**
@@ -17,7 +19,8 @@ Virtual workers are entities present on our local machine. They are used to mode
 * RESOURCES:
   * [Notebook](virtual_workers/02_fed_nonfed_regression/notebooks/fed_nonfed_simple_regression.ipynb)
 
-### [Web Sockets](websockets/README.md)
+*[Web Sockets](websockets/README.md)*
+
 Here, each worker is represented by two parts, a local handle (websocket client worker) and the remote instance that holds the data and performs the computations. The remote part is called a websocket server worker.
 
 **01_test_connection**
